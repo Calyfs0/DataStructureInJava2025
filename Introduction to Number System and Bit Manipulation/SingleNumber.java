@@ -12,6 +12,7 @@ class SingleNumber {
         for (int i : input){
             answer ^= i;
         }
+        
             
         
         return answer;
