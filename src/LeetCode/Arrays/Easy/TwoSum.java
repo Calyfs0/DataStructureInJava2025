@@ -1,3 +1,5 @@
+package LeetCode.Arrays.Easy;
+
 import java.util.HashMap;
 
 public class TwoSum {

@@ -13,8 +13,6 @@ class SingleNumber {
             answer ^= i;
         }
         
-            
-        
         return answer;
     }
 }
