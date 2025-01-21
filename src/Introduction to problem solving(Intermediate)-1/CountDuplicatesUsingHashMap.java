@@ -1,5 +1,4 @@
 import java.util.HashMap;
-import java.util.Map;
 
 public class CountDuplicatesUsingHashMap {
     public static void main(String[] args) {
