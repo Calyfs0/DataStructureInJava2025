@@ -67,8 +67,7 @@ public class ReverseTheArrayUsingXor {
     }
 
     public static int[] solve(int[] A){
-        int N = A.length;
-
+        
         int[] output = A.clone();
 
         int i = 0;
