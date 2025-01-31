@@ -1,3 +1,4 @@
+package SubArrays;
 /*Q1. Continuous Sum Query
 
 Problem Description

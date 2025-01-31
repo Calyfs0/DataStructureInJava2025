@@ -1,3 +1,4 @@
+package SubArrays;
 /*
  * Problem Description
 
@@ -55,7 +56,7 @@ The different subarrays for the given array are: [2], [1], [3], [2, 1], [1, 3], 
 Their sums are: 2 + 1 + 3 + 3 + 4 + 6 = 19
  */
 
-public class SumOfAllSubarrays {
+public class SumOfAllSubarraysLinearTime {
     public static void main(String[] args) {
         int[] A = {2,9,5};
 
@@ -67,11 +68,7 @@ public class SumOfAllSubarrays {
         long totalSum = 0;
         for(int i=0;i<A.length;i++){
            
-            long currentSum = 0;
-            for(int j=i;j<A.length;j++){
-                currentSum += A[j];
-                totalSum += currentSum;
-            }
+            totalSum += A[i] * (i+1) * (A.length - i);
 
             
         }
