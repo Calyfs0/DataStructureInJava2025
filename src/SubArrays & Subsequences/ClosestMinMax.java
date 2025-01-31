@@ -56,8 +56,6 @@ Explanation 2:
  */
 
 
-package SubArrays;
-
 public class ClosestMinMax {
     public static void main(String[] args) {
         int[] A = {343,291,963,165,152};

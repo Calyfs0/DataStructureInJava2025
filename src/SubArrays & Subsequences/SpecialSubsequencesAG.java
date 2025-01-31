@@ -1,5 +1,3 @@
-package SubArrays;
-
 public class SpecialSubsequencesAG {
     public static void main(String[] args) {
         String A = "ABCGAG";
