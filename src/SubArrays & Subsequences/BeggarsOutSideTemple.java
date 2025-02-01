@@ -1,4 +1,4 @@
-package SubArrays;
+
 /*Q1. Continuous Sum Query
 
 Problem Description
@@ -10,7 +10,7 @@ For ith devotee B[i][0] = L, B[i][1] = R, B[i][2] = P, given by the 2D array B
 
 
 Problem Constraints
-
+ 
 1 <= A <= 2 * 105
 1 <= L <= R <= A
 1 <= P <= 103

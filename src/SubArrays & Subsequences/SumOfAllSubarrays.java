@@ -1,4 +1,4 @@
-package SubArrays;
+
 /*
  * Problem Description
 
