@@ -75,9 +75,7 @@ public class EquilibriumIndexOfArray {
     }
 
     public static int solve(int[] A){
-        
-        int index = -1;
-
+      
         //creating prefix sum array
         int[] forwardPrefixSum = new int[A.length+1];
         forwardPrefixSum[0] = 0;
@@ -92,6 +90,6 @@ public class EquilibriumIndexOfArray {
             }
         }
 
-        return index;
+        return -1;
     }
 }
